@@ -1,0 +1,13 @@
+Interfaces\Irol.class
+Controlador\ControlRol.class
+Interfaces\Iusuario.class
+Modelo\Rol.class
+ModeloDAO\UsuarioDAO.class
+Config\Test.class
+Modelo\Categoria.class
+ModeloDAO\RolDAO.class
+Controlador\ControlUsuario.class
+Modelo\Usuario.class
+Modelo\Proveedor.class
+Config\MySQLConexion.class
+Modelo\Producto.class
