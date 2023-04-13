@@ -6,6 +6,8 @@ public class Boleta {
 
     private int idBoleta;
     private int idUsuario;
+    private String nombreUsuario;
+    private String nombreCliente;
     private int idCliente;
     private String fechaCompra;
     private double total;
@@ -68,6 +70,22 @@ public class Boleta {
 
     public void setDetalle(ArrayList<BDetalle> detalle) {
         this.detalle = detalle;
+    }
+
+    public String getNombreUsuario() {
+        return nombreUsuario;
+    }
+
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
+    }
+
+    public String getNombreCliente() {
+        return nombreCliente;
+    }
+
+    public void setNombreCliente(String nombreCliente) {
+        this.nombreCliente = nombreCliente;
     }
 
 }

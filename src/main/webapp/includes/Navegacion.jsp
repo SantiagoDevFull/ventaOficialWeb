@@ -43,6 +43,7 @@
                         <a class="nav-link" href="ControlCategoria?accion=Listar"><i class="bi bi-bar-chart-steps"></i>&nbsp;Categoría de Productos</a>
                         <a class="nav-link" href="ControlProducto?accion=Listar"><i class="bi bi-box-seam-fill"></i>&nbsp;Productos</a>
                         <a class="nav-link" href="ControlBoleta?accion=Nueva"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Nueva Boleta</a>
+                        <a class="nav-link" href="ControlBoleta?accion=Consultar"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Consultar Boleta</a>
                     </li>
 
                 </ul>

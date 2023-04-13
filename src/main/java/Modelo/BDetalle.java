@@ -6,6 +6,7 @@ public class BDetalle {
     private String descripcion;
     private double precioPro;
     private int cantidad;
+    private double total;
 
     public double Importe() {
         return precioPro * cantidad;
@@ -51,6 +52,14 @@ public class BDetalle {
 
     public void setPrecioPro(double precioPro) {
         this.precioPro = precioPro;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
     }
 
 }

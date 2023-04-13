@@ -80,3 +80,10 @@ function ValidarProceso(){
     return true;
     
 }
+
+function VerDetalle(id){
+    
+    $('#detalle').load("ControlBoleta?accion=VerDetalle&id="+id);
+    $('#modalDetalle').modal("show");
+    
+}
